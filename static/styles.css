@@ -1,0 +1,38 @@
+
+button {
+  background: #095e24;
+  background-image: linear-gradient(to bottom, #095e24, #3db82b);
+  border-radius: 4px;
+  box-shadow: 7px 7px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #03111a 1px;
+  text-decoration: none;
+  display: block;
+  width: 30%;
+  margin: auto;
+}
+
+button:hover {
+  background: #1fd944;
+  background-image: linear-gradient(to bottom, #1fd944, #11800c);
+  text-decoration: none;
+}
+
+p {
+  font-family: Arial;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  margin: 40px 0px 0px 250px;
+  color: darkgreen;
+
+}
+
+section {
+  display: block;
+  width: 100%;
+  margin: 90px 0px 0px 0px;
+}

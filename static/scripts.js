@@ -11,6 +11,10 @@ $(document).ready(function() {
   getData();
 
   $('button').on('click', function() {
-    $('p').html(balance);
+    var p = $('p').html(balance);
+    p.animate({left: '300px'}, '3000');
+    p.animate({fontSize: '3em'}, 'slow');
+    getData();
   });
+
 });
